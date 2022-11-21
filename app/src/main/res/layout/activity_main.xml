@@ -38,19 +38,21 @@
         android:id="@+id/btnName"
         android:layout_width="321dp"
         android:layout_height="49dp"
+        android:layout_marginTop="20dp"
         android:text="Username"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="306dp" />
+        app:layout_constraintTop_toBottomOf="@+id/login" />
 
     <Button
         android:id="@+id/btnPassword"
         android:layout_width="321dp"
         android:layout_height="49dp"
+        android:layout_marginTop="10dp"
         android:text="Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="367dp" />
+        app:layout_constraintTop_toBottomOf="@+id/btnName" />
 
 </android.support.constraint.ConstraintLayout>
