@@ -35,26 +35,81 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/btnName"
-        android:layout_width="321dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="20dp"
-        android:text="Username"
+        android:id="@+id/btnEmail"
+        android:layout_width="295dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#66FD25"
+        android:text="Sign Up with Email "
+        android:textAlignment="center"
+        android:textColor="#F7FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="295dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#66FD25"
+        android:text="Sign Up with Facebook"
+        android:textAlignment="center"
+        android:textColor="#F7FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEmail" />
+
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="295dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#66FD25"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textColor="#F7FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFacebook" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="317dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:background="#009E2222"
+        android:text="USERNAME"
+        android:textAlignment="textStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login" />
 
-    <Button
-        android:id="@+id/btnPassword"
-        android:layout_width="321dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="329dp"
-        android:text="Password"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="317dp"
+        android:layout_height="41dp"
+        android:text="PASSWORD"
+        android:textAlignment="textStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnName" />
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:id="@+id/noRegistrar"
+        android:layout_width="101dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="37dp"
+        android:text="Not now"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#0B0B0B"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCrear" />
 
 </android.support.constraint.ConstraintLayout>
